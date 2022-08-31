@@ -10,7 +10,7 @@ Wagon::Wagon(){
 }
 
 bool Wagon::addCapybara(Capybara newCapy){
-    std::cout << "attempting to add to wagon, counter: " << counter << std::endl;
+    // std::cout << "attempting to add to wagon, counter: " << counter << std::endl;
     if (counter < 4)
     {
         array[counter] = newCapy;
