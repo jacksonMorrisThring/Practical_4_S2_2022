@@ -28,6 +28,7 @@ void Wagon::emptyWagon(){
     {
         array[i] = Capybara();
     }
+    counter = 0;
 }                     // remove all Capybaras from the wagon
 void Wagon::printCapybaras(){
     for (int i = 0; i < size; i++)
