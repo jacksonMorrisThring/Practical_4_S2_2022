@@ -7,7 +7,7 @@ Person::Person(){
     salary = 0;
 }   
 
-Person::Person(std::string name, int salary){
+Person::Person(int salary, std::string name){
     this -> name = name;
     this -> salary = salary;
 }
