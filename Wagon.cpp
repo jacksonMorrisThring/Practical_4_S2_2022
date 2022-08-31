@@ -14,6 +14,7 @@ bool Wagon::addCapybara(Capybara newCapy){
     if (counter < 4)
     {
         array[counter] = newCapy;
+        // std::cout << array[counter].getName() << " added" << std::endl;
         counter++;
         return true;
     }
@@ -36,10 +37,8 @@ void Wagon::printCapybaras(){
             break;
         }
         else{
-            std::cout << array[i].getName() << " " << array[i].getAge() <<std::endl;
+            std::cout << array[i].getName() << " " << array[i].getAge() << std::endl;
         }
-        
-        array[i] = Capybara();
     }
 }
 
