@@ -36,7 +36,7 @@ void Wagon::printCapybaras(){
             break;
         }
         else{
-            std::cout << array[i].getName() << std::endl;
+            std::cout << array[i].getName() << " " << array[i].getAge() <<std::endl;
         }
         
         array[i] = Capybara();
