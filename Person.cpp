@@ -2,10 +2,10 @@
 #include "Person.h"
 
 // Constructor
-// Person::Person(){
-//     name = "?";
-//     salary = 0;
-// }   
+Person::Person(){
+    name = "?";
+    salary = 0;
+}   
 
 Person::Person(int salary, std::string name){
     this -> name = name;

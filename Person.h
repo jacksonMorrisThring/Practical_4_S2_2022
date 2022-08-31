@@ -8,6 +8,7 @@ public:
     int salary;
 
     // Constructor
+    Person();
     Person(int salary, std::string name);
     // Functions
     void setName(std::string capyName);   // change the capybara's name
