@@ -5,7 +5,12 @@
 Person::Person(){
     name = "?";
     salary = 0;
-}                     
+}   
+
+Person::Person(std::string name, int salary){
+    this -> name = name;
+    this -> salary = salary;
+}
     
     // Functions
 void Person::setName(std::string name){

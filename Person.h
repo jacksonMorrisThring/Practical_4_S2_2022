@@ -9,7 +9,7 @@ public:
 
     // Constructor
     Person();                     // no name or age is required to create a Capybara
-    
+    Person(std::string name, int salary);
     // Functions
     void setName(std::string capyName);   // change the capybara's name
     std::string getName();
